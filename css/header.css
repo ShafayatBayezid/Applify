@@ -1,0 +1,52 @@
+/* ############ Header ############ */
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #20509E;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #666666 !important;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar .nav-item:focus .nav-link,
+.navbar .nav-item:hover .nav-link {
+    color: #95999c !important;
+}
+
+.navbar .login{
+    border: 1px solid #20509E;
+    padding-right:25px;
+    padding-left:25px;
+    border-radius: 50px;
+    width: 150px;
+    text-align: center;
+    margin-left: 10px;
+}
+.navbar .login a i{
+    color:#20509E;
+    font-size:14px;
+    padding:0 4px 0 0;
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar .login{
+        width: 100%;
+        padding:0px 20px 0px 20px;
+        border-radius: 50px;
+        margin-left: 10px;
+        align-items: center;
+    }
+
+    .navbar .login a i{
+        display: none;
+    }
+}

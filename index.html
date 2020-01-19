@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Applify - Bootstrap 4 Template</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <!-- Bootstrap CSS -->
+<!--    <link rel="stylesheet" type="text/css" href="css/library/bootstrap-reboot.css">-->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap4.3.1.css">
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/library/normalize.min.css">
+
+    <!-- Main Styles CSS -->
+    <link rel="stylesheet" href='css/main.css'>
+    <link rel="stylesheet" href='css/header.css'>
+    <link rel="stylesheet" href='css/footer.css'>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style class="cp-pen-styles">
+        #carousel3d .carousel-3d-slide {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            background-color: #fff;
+            padding: 10px;
+            -webkit-transition: all .4s;
+            transition: all .4s;
+        }
+
+        #carousel3d .carousel-3d-slide.current {
+            background-color: #4EB8E7;
+            color: #212B35;
+            border: none;
+        }
+
+        #carousel3d .carousel-3d-slide .users-img img,
+        #carousel3d .carousel-3d-slide.current .users-img img {
+            width: 65px;
+            height: 65px;
+            margin-bottom: 10px;
+        }
+
+        #carousel3d .carousel-3d-slide.current .user-info .user-name {
+            color: #ffffff;
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        #carousel3d .carousel-3d-slide.current .user-info .address {
+            color: #ffffff;
+            display: block;
+            font-size: .85rem;
+            font-weight: 500;
+        }
+
+        #carousel3d .carousel-3d-slide.current p {
+            color: #ffffff;
+            display: block;
+            font-size: .95rem;
+            font-weight: 500;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class='navbar navbar-expand-sm navbar-light '>
+    <div class='container'>
+        <a class='navbar-brand' href='index.html'>
+            Applify
+        </a>
+        <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'
+                aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation'>
+            <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarResponsive'>
+            <ul class='navbar-nav ml-auto'>
+
+                <li class='nav-item active'>
+                    <a class='nav-link' href='index.html'>Home
+                        <span class='sr-only'>(current)</span>
+                    </a>
+                </li>
+
+                <li class='nav-item'>
+                    <a class='nav-link' href='features.html'>Features</a>
+                </li>
+
+                <li class='nav-item'>
+                    <a class='nav-link' href='about.html'>About</a>
+                </li>
+
+                <li class='nav-item'>
+                    <a class='nav-link ' href='contact.html'>Contact</a>
+                </li>
+
+
+                <li class='nav-item login'>
+                    <a class='nav-link' href='login.html'>
+                        <i class='fa fa-sign-in' aria-hidden='true'></i> Login
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar end -->
+
+<!-- Welcome section -->
+<div id="welcome-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/dashboard_phone.png" class="" alt="">
+            </div>
+
+            <div class="col-md-6 welcome-text align-self-center">
+                <h2>The <span>best way</span> to promote<br> your app and convert users.</h2>
+                <h4>High converting Bootstrap template made for app developers. Built with Bootstrap 4 and CSS. Get
+                    started now!
+                </h4>
+                <div class="welcome-start-btn">
+                    <a href="#" class="">Start With Free</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- welcome section end -->
+
+<!-- Trusted business section -->
+<div id="trusted-section">
+    <div class="container">
+        <div class="text-center">
+
+            <div class="title">
+                Trusted by hundreds of software businesses
+            </div>
+            <div class="companies">
+                <a href="" class="align-self-center"><i class="fa fa-dropbox"></i>Dropbox</a>
+                <a href="" class="align-self-center"><i class="fa fa-google"></i>Google</a>
+                <a href="" class="align-self-center"><i class="fa fa-youtube-square"></i>Youtube</a>
+                <a href="" class="align-self-center"><i class="fa fa-facebook-square"></i>Facebook</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Trusted business end -->
+
+<!-- About section -->
+<div id="about-section">
+    <div class="container">
+        <div class="row">
+
+            <div class="about-text col-md-6 text-center align-self-center">
+                <h2>What is <span>Applify</span></h2>
+                <h6>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </span>
+                </h6>
+                <a href=""> <img src="./images/google-paly.png" alt=""></a>
+                <a href=""> <img src="./images/app-store.png" alt=""></a>
+            </div>
+
+            <div class="about-img col-md-6">
+                <img src="./images/about-img.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About section end -->
+
+<!-- Benefits section -->
+<div id="benefits-section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Market your <span>mobile app</span> effectively with Applify</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
+        <div class="row">
+
+            <!-- benefits -->
+            <div class="col-md-6 col-lg-4 d-flex text-center benefits">
+                <div class="benefits-content align-self-center">
+                    <span class="icon align-self-top"><i class="fa fa-crosshairs"></i></span>
+                    <h4>Focused on UX</h4>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                </div>
+            </div>
+
+            <!-- benefits -->
+            <div class="col-md-6 col-lg-4 d-flex justify-content-center text-center benefits">
+                <div class="benefits-content align-self-center">
+                    <span class="icon"><i class="fa fa-cog"></i></span>
+                    <h4>Easy Customisations</h4>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                </div>
+            </div>
+
+            <!-- benefits -->
+            <div class="col-md-6 col-lg-4 d-flex justify-content-center text-center benefits">
+                <div class="benefits-content align-self-center">
+                    <span class="icon"><i class="fa fa-user"></i></span>
+                    <h4>Convert Users</h4>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                </div>
+            </div>
+        </div>
+        <div class="learn-more text-center">
+            <a href="" class="text-center">Learn More</a>
+        </div>
+    </div>
+</div>
+<!-- Benefits section end -->
+
+<!-- Features section -->
+<div id="features-section">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Feature Highlights</h2>
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 feature-img">
+                <img src="./images/features-img.png" alt="">
+            </div>
+            <div class="col-md-6">
+                <!-- feature -->
+                <div class="features d-flex card shadow">
+                    <span class="icon d-flex align-self-start"><i
+                            class="fa fa-align-left"></i><h4>Feature Lorem Ipsum</h4></span>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                    <a href="" class="learn-more">Learn more →</a>
+                </div>
+                <!-- feature -->
+                <div class="features d-flex card shadow">
+                    <span class="icon d-flex align-self-start"><i
+                            class="fa fa-podcast"></i><h4>Feature Lorem Ipsum</h4></span>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                    <a href="" class="learn-more">Learn more →</a>
+                </div>
+                <!-- feature -->
+                <div class="features d-flex card shadow">
+                    <span class="icon d-flex align-self-start"><i
+                            class="fa fa-circle-o"></i><h4>Feature Lorem Ipsum</h4></span>
+                    <span class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. </span>
+                    <a href="" class="learn-more">Learn more →</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="view-more-features text-center">
+            <a href="features.html">View More Features</a>
+        </div>
+    </div>
+</div>
+<!-- Feature section end -->
+
+<!-- cta section -->
+<div id="cta-section">
+    <div class="container">
+        <div class="text-center">
+
+            <div class="title">Ready to turn your visitors to app users?</div>
+
+            <div class="details">
+                Try Applify Today. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+                eget dolor. Aenean massa.
+                Cum sociis natoque penatibus et magnis dis.
+            </div>
+
+            <div class="download-btn">
+                <a href="" class="text-center">Download Now - It's FREE</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- cta section end -->
+
+<!-- Reviewer section -->
+<div id="reviewer-section">
+    <div class="container  text-center">
+
+        <h2 class="review-title">Loved by thousands of <span>app developers</span> like you</h2>
+
+        <div id="carousel3d">
+            <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'"
+                         :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true"
+                         :autoplay="true" :autoplay-timeout="3000">
+                <slide :index="0">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/1.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Tony Carter</span>
+                            <span class="address">New York, US</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+                <slide :index="1">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/2.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Maria Jenny</span>
+                            <span class="address">San Francisco, US</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+                <slide :index="2">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/3.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Kimberly Wells</span>
+                            <span class="address">London, UK</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+                <slide :index="3">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/4.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Tony Carter</span>
+                            <span class="address">New York, US</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+                <slide :index="4">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/5.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Deborah Reed</span>
+                            <span class="address">California, US</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+                <slide :index="5">
+                    <div class="d-flex">
+                        <div class="ml-2 users-img align-self-center">
+                            <img src="./images/users/3.jpg"
+                                 alt="Shafayat Hossain" class="img-responsive img-circle rounded-circle"/>
+                        </div>
+
+                        <div class="ml-4 user-info align-self-center">
+                            <span class="user-name">Tony Carter</span>
+                            <span class="address">New York, US</span>
+                        </div>
+                    </div>
+
+                    <p class="mx-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                        dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis.Lorem ipsum dolor sit amet,
+                        consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+
+                </slide>
+
+
+            </carousel-3d>
+        </div>
+
+    </div>
+</div>
+<!-- Reviewer section end -->
+
+
+<!-- Footer Section -->
+
+<div id="footer">
+    <div class="container">
+
+        <!--        <div class="row d-flex justify-content-center">-->
+        <!--            <span class="footer-title">Need to talk to someone? <a href="#" class="footer-contact">Contact us</a> or <a-->
+        <!--                    href="#" class="footer-tweet">send us a tweet.</a></span>-->
+        <!--        </div>-->
+
+        <div class="row d-flex mb-5 footer-top">
+            <div class="col-md-3 col-6 footer1">
+                <span class="item-title">About Applify</span>
+                <a href="#" class="footer-item">Our Story</a>
+                <a href="#" class="footer-item">Pricing</a>
+                <a href="#" class="footer-item">Contact</a>
+                <a href="#" class="footer-item">Jobs</a>
+            </div>
+
+            <div class="col-md-3 col-6 footer2">
+                <span class="item-title">Resources</span>
+                <a href="#" class="footer-item">FAQs</a>
+                <a href="#" class="footer-item">Blog</a>
+                <a href="#" class="footer-item">Support</a>
+                <a href="#" class="footer-item">Developer APIs</a>
+            </div>
+
+            <div class="col-md-3 col-6 footer3">
+                <span class="item-title">Legal</span>
+                <a href="#" class="footer-item">Privacy</a>
+                <a href="#" class="footer-item">Terms of Services</a>
+                <a href="#" class="footer-item">Security</a>
+            </div>
+
+            <div class="col-md-3 col-6 footer4">
+                <span class="item-title">Stay Connected</span>
+                <span class="footer-item">Company Name</span>
+                <span class="footer-item">2419 Locust View Drive San Francisco, CA, 94143</span>
+                <a href="#" class="footer-item">hello@yourcompany.com</a>
+            </div>
+        </div>
+        <hr>
+        <div class="row footer-bottom">
+            <div class="container">
+                <div class="text-center">
+
+                    <div class="title">Get the app</div>
+
+                    <div class="details">Download our apps now. lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit.
+                        Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis.
+                    </div>
+
+                    <div class="btns">
+                        <a href=""><img src="./images/google-paly.png"></a>
+                        <a href=""><img src="./images/app-store.png"></a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer Section end-->
+
+
+<!-- JS Scripts -->
+
+
+<script src='js/library/slider.js'></script>
+<script src='js/library/vue2.1.7.js'></script>
+<script src='js/library/vue-carousel-3d.min.js'></script>
+
+<script>new Vue({
+    el: '#carousel3d',
+    data: {
+        slides: 7
+    },
+    components: {
+        'carousel-3d': Carousel3d.Carousel3d,
+        'slide': Carousel3d.Slide
+    }
+})
+</script>
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+<script src="js/library/bootstrap.bundle.js"></script>
+<script src="js/library/bootstrap.min.js"></script>
+
+
+</body>
+</html>

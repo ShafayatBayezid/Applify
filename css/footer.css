@@ -1,0 +1,122 @@
+#footer{
+    padding: 50px 0px 50px 0px;
+    background-color: #f3f7f9;
+}
+
+#footer .footer-top .footer-title .footer-contact, #footer .footer-top .footer-title .footer-tweet{
+    text-decoration: none;
+    color: #4EB8E7;
+}
+
+#footer .footer-top .footer1 .item-title,
+#footer .footer-top .footer2 .item-title,
+#footer .footer-top .footer3 .item-title,
+#footer .footer-top .footer4 .item-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #212B35;
+    display: block;
+}
+
+#footer .footer-top .footer1 .footer-item,
+#footer .footer-top .footer2 .footer-item,
+#footer .footer-top .footer3 .footer-item,
+#footer .footer-top .footer4 .footer-item{
+    font-size: .85rem;
+    font-weight: 400;
+    color: #74787a;
+    display: block;
+    line-height: 2rem;
+}
+
+#footer .footer-bottom{
+    padding: 30px 100px 0px 100px;
+}
+
+#footer .footer-bottom .title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #212B35;
+    display: block;
+}
+
+#footer .footer-bottom .details{
+    font-size: .95rem;
+    font-weight: 500;
+    color: #585c5f;
+    display: block;
+    margin: 20px 0px 20px 0px;
+}
+
+#footer .footer-bottom .btns img{
+    margin: 0px 5px 0px 5px;
+    height: 100%;
+    width: 15%;
+}
+
+
+
+@media (max-width: 992px) {
+
+    #footer .footer-bottom .btns img{
+        height: 100%;
+        width: 22%;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    #footer .footer-bottom{
+        padding: 30px 10px 0px 10px;
+    }
+
+    #footer .footer-bottom .btns img{
+        height: 100%;
+        width: 22%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    #footer{
+        padding: 50px 20px 50px 20px;
+    }
+
+    #footer .footer-bottom{
+        padding: 30px 10px 0px 10px;
+    }
+
+    #footer .footer-bottom .btns img{
+        height: 100%;
+        width: 27%;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    #footer{
+        padding: 30px 10px 30px 10px;
+    }
+
+    #footer .footer-bottom{
+        padding: 20px 10px 0px 10px;
+    }
+
+    #footer .footer-bottom .btns img{
+        height: 100%;
+        width: 35%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

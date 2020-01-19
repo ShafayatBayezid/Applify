@@ -1,0 +1,604 @@
+body {
+    background: #ffffff;
+}
+
+/*---------------------
+  Welcome Section
+-----------------------*/
+
+#welcome-section {
+    height: 100%;
+    padding: 0px 0px 50px 0px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg-main.png");
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#welcome-section img {
+    width: 50%;
+    padding-top: 50px;
+    position: relative;
+    left: 20%;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+.welcome-text h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: #212B35;
+}
+
+.welcome-text h2 span, .welcome-text h4 span {
+    color: #4EB8E7;
+}
+
+.welcome-text h4 {
+    color: #75849a;
+    font-size: 1.2rem;
+}
+
+.welcome-start-btn {
+    margin-top: 50px;
+    margin-right: 0px;
+
+}
+
+.welcome-start-btn a {
+    padding: 12px 25px 12px 25px;
+    border-radius: 50px;
+    border: 2px solid #4EB8E7;
+    font-family: "Futura", sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 8px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #212B35;
+    transition: 0.3s;
+}
+
+.welcome-start-btn a:hover {
+    background-color: #4EB8E7;
+    color: #FFFFFF;
+}
+
+
+/*---------------------
+  Trusted business Section
+-----------------------*/
+#trusted-section {
+    padding: 50px 0px 50px 0px;
+    background-color: #f3f7f9;
+    border-bottom: 1px solid #E5E5E5;
+    color: #737B82;
+    width: 100%;
+}
+
+
+#trusted-section .title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#trusted-section .companies a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #737B82;
+    display: inline-block;
+    transition: .3s;
+}
+
+#trusted-section .companies a:hover {
+    border: 1px solid #737B82;
+    border-radius: 5px;
+    color: #737B82;
+}
+
+#trusted-section .companies a i {
+    margin: 0px 5px 0px 5px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+
+/*---------------------
+  About Section
+-----------------------*/
+
+
+#about-section .container {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about-section .about-text a img {
+    width: 150px;
+    height: 45px;
+    margin: 10px 5px 0px 5px;
+}
+
+#about-section .about-text h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #212B35;
+}
+
+#about-section .about-text h2 span {
+    color: #4EB8E7;
+}
+
+#about-section .about-text h6 span {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #212B35;
+}
+
+#about-section .about-text img {
+    margin-top: 20px;
+}
+
+#about-section .about-img img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*---------------------
+  Benefits Section
+-----------------------*/
+#benefits-section {
+    padding: 100px 0px 100px 0px;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #f3f7f9;
+    margin: 0px 0px 0px 0px;
+
+}
+
+#benefits-section .section-title h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #212B35;
+}
+
+#benefits-section .section-title h2 span {
+    color: #4EB8E7;
+}
+
+#benefits-section .section-title p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #212B35;
+    margin-bottom: 60px;
+}
+
+#benefits-section .benefits {
+    margin-bottom: 45px;
+}
+
+#benefits-section .benefits .benefits-content .icon {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #4EB8E7;
+    display: block;
+}
+
+#benefits-section .benefits .benefits-content {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    display: block;
+}
+
+#benefits-section .benefits .benefits-content h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #212B35;
+}
+
+#benefits-section .benefits .benefits-content .description {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #212B35;
+}
+
+#benefits-section .learn-more a{
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #4EB8E7;
+    border: 2px solid #4EB8E7;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#benefits-section .learn-more a:hover{
+    color: #FFFFFF;
+    background-color: #4EB8E7;
+}
+
+
+/*---------------------
+  Features Section
+-----------------------*/
+#features-section {
+    padding: 100px 0px 100px 0px;
+    margin: 0px 0px 0px 0px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-image: url("../images/bg-body.png");
+
+}
+
+#features-section .section-title h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #212B35;
+    margin-bottom: 50px;
+}
+
+#features-section .features {
+    margin-bottom: 45px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+
+#features-section .feature-img img{
+    padding-bottom: 20px;
+    width: 70%;
+    position: relative;
+    left: 90px;
+}
+
+#features-section .features .icon {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #4EB8E7;
+    display: block;
+}
+
+#features-section .features .icon h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #212B35;
+    margin-left: 20px;
+}
+
+#features-section .features .description {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #212B35;
+}
+
+#features-section .features .learn-more{
+    font-size: .95rem;
+    font-weight: 500;
+    color: #4EB8E7;
+    margin-top: 10px;
+}
+
+#features-section .view-more-features a{
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #4EB8E7;
+    border: 2px solid #4EB8E7;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#features-section .view-more-features a:hover{
+    color: #FFFFFF;
+    background-color: #4EB8E7;
+}
+
+
+
+
+
+/*----------------------------------
+  CTA Section
+------------------------------------*/
+
+#cta-section{
+    color: #FFFFFF;
+    align-items: center;
+    padding: 50px 0px 50px 0px;
+    background-color: #4EB8E7;
+}
+
+#cta-section .title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+#cta-section .details{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+#cta-section .download-btn a{
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#cta-section .download-btn a:hover{
+    background-color: #FFFFFF;
+    color: #212B35;
+}
+
+
+
+/*----------------------------------
+  Reviewer Section
+------------------------------------*/
+#reviewer-section{
+    padding: 100px 0px 100px 0px;
+    background-color: transparent;
+}
+
+#reviewer-section .review-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #212B35;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#reviewer-section .review-title span{
+    color: #4EB8E7;
+}
+
+
+
+
+/*----------------------------------
+  Responsive design for all Section
+------------------------------------*/
+
+
+@media (max-width: 992px) {
+    .welcome-text {
+        text-align: center;
+    }
+
+    .welcome-text h2 {
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .welcome-text h4 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .welcome-start-btn a {
+        font-size: .8rem;
+        background-color: #FFFFFF;
+    }
+
+    /*-------- About --------*/
+    #about-section .about-text h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+
+    #about-section .about-text h6 span {
+        font-size: 1.0rem;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    #about-section .about-img img {
+        margin-top: 20px;
+    }
+
+    /*  Features Section
+    -----------------------*/
+    #features-section {
+        background-color: transparent;
+        padding: 100px 0px 100px 0px;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    #features-section .section-title h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #212B35;
+    }
+    #features-section .view-more-features a{
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+    }
+
+    #features-section .view-more-features a:hover{
+        color: #FFFFFF;
+        border: 2px solid #4EB8E7;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+  .welcome-text h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+
+    .welcome-text h4 {
+        font-size: 1.1rem;
+    }
+
+    .welcome-start-btn a {
+        font-size: .8rem;
+        background-color: #FFFFFF;
+    }
+
+    #welcome-section img {
+        width: 40%;
+        left: 30%;
+    }
+
+    /*-------- About --------*/
+    #about-section .about-text h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    #about-section .about-text h6 span {
+        font-size: 1.0rem;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+
+    /* Features Section
+    -----------------------*/
+    #features-section {
+        background-color: transparent;
+        padding: 100px 0px 100px 0px;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    #features-section .section-title h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #212B35;
+    }
+
+    #features-section .feature-img img{
+        display: none;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    #welcome-section img {
+        height: 100%;
+        width: 40%;
+        left: 25%;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .welcome-text h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin-bottom: 30px;
+        color: #212B35;
+    }
+
+    .welcome-text h4 {
+        font-size: 1.1rem;
+        color: #212B35;
+    }
+
+    .welcome-start-btn a {
+        font-size: .8rem;
+        color: #212B35;
+
+    }
+
+
+    /*-------- About --------*/
+    #about-section .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #about-section .about-text h2 {
+        font-size: 2rem;
+        margin-bottom: 25px;
+        margin-top: 30px;
+        padding: 10px;
+        color: #212B35;
+    }
+
+    #about-section .about-text h6 span {
+        font-size: 1.1rem;
+        font-weight: 500;
+        padding: 10px;
+        color: #212B35;
+    }
+
+    /*---------------------
+      Features Section
+    -----------------------*/
+    #features-section {
+        background-color: transparent;
+        padding: 50px 0px 30px 0px;
+        border-top: 1px solid #E5E5E5;
+        border-bottom: 1px solid #E5E5E5;
+        margin: 0px 0px 0px 0px;
+
+    }
+
+    #features-section .section-title h2 {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #212B35;
+    }
+
+    #features-section .section-title p {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: #212B35;
+    }
+
+}
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+body{
+    background-color: #ffffff;
+}
+
+.backToHome{
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.backToHome a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #16d0c5;
+
+}
+.backToHome a i{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #16d0c5;
+
+}
+
+/*--------------- login Form ----------------*/
+#registration-form {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 10px 0px 0px;
+    width: 50%;
+
+
+}
+#registration-form .form-design .level{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #20509E;
+    margin-top: 15px;
+
+}
+#registration-form .form-design{
+
+}
+#registration-form .form-design h3{
+    color: #20509E;
+}
+
+#registration-form .form-design .form-input{
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    outline-color: #20509E !important;
+    padding: 7px;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
+}
+#registration-form .signup-btn {
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid #16d0c5;
+    background-color: transparent;
+    padding: 10px 40px 10px 40px;
+    margin-top: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #20509E;
+}
+
+#registration-form .forgot-pass a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #20509E;
+    margin-top: 10px;
+}
+
+#registration-formform .backToRegister{
+    font-weight: 500;
+    font-size: .9rem;
+    color: #95999c;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#registration-form .backToRegister a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: .9rem;
+    color: #20509E;
+}
+
+
+
+/*------------------ Media Query or Responsive style ------------------*/
+@media (max-width: 576px) {
+    #registration-form {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px)  {
+    #registration-form {
+        width: 100%;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
